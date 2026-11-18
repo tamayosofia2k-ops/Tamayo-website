@@ -9,20 +9,121 @@
     <body>
         
         <header id="header">
+            
+            <div class="ticker">
+                <span class="ticker-label">BREAKING NEWS</span>
+
+                <div class="ticker-track">
+                    <span class="ticker-item">Crowned with Purpose: Mabalos, Pelongco Emerge Victorious at Mr. and Ms. CISC 2026</span>
+                    <span class="ticker-sep">•</span>
+                    <span class="ticker-item">Java, Python, Perl Secure Titles in CISC Days 2026 Technical Competition</span>
+                    <span class="ticker-sep">•</span>
+                    <span class="ticker-item">Beyond the Flag: Three Speakers Bring Cybersecurity Lessons to CISC Days 2026</span>
+                </div>
+            </div>
+
+            <!--HEADER-->
             <h1>THE CIPHER LENS</h1>
             <p>Bringing Truth Into Focus</p>
+
+            <!--Navigation Section-->
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="opinion.html">Opinion</a></li>
+                    <li><a href="magazine.html">Magazine</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+
+            <!--Search Button-->
+            <form role="search" action="/search" method="GET" class="search-form">
+                <input
+                disabled
+                type="search"
+                name="q"
+                placeholder="Search articles,topics,keywords..."
+                aria-label="Search Site content"
+                required
+                />
+                <button type="submit" disabled>Search</button>
+            </form>
         </header>
 
-        <nav id="nav">
-            <ol>
-                <li class = "Home"><a href="index.html">Home</a></li>
-                <li class = "News"><a href="news.html">News</a></li>
-                <li class = "Feature"><a href="feature.html">Feature</a></li>
-                <li class = "Opinion"><a href="opinion.html">Opinion</a></li>
-                <li class = "Magazine"><a href="magazine.html">Magazine</a></li>
-                <li class = "AbtUs"><a href="about.html">About Us</a></li>
-                <li class = "cnts"><a href="contact.html">Contact Us</a></li>
-            </ol>
+        <main>
+            <!--Hero Section-->
+            <section class="hero">
+
+                <h2>Stories That Inform. Perspectives That Matter.</h2>
+                <p>Bringing Truth Into Focus</p>
+                <a href="news.html" class="btn">Explore Our Latest Stories</a>
+
+            </section>
+
+
+            <!--About Us Section-->
+            <section class="abt-us">
+                <h2>About The Cipher Lens</h2>
+                <p>The Cipher Lens is the dedicated student 
+                    publication of the College of Information Science and
+                    Computing (CISC). We bring the latest news, stories, and perspectives 
+                    from our academic community, providing a platform for student voices 
+                    and meaningful conversations.
+
+                </p>
+
+
+            </section>
+
+
+            <!--Highlight Section-->
+            <section class="highlight">
+                <h2>Latest Stories and Highlights</h2>
+                <article class="art1">
+                    <img src="images/pageant.jpg" alt="Mr. & Ms. CISC 2026 Winners" class="art-img">
+                    <h3>Crowned with Purpose: Mabalos, Pelongco Emerge Victorious at Mr. and Ms. CISC 2026</h3>
+                    <p>
+
+                        Kyle Gian P. Mabalos and Maui Kyle Pelongco
+                        were crowned Mr. and Ms. 2026 during the first day of 
+                        ALAYON. Both titleholders stood out for their confidence 
+                        and meaningful responses on mental health and women's empowerment.
+
+                    </p>
+                </article>
+
+                <article class="art2">
+                    <img src="images/games.jpg" alt="CISC Days Technical Competition" class="art-img">
+                    <h3>Java, Python, Perl Secure Titles in CISC Days 2026 Technical Competition</h3>
+                    <p>
+
+                        House of Java,  Python, and Perl claimed championship titles in Prompt Pulse, 
+                        BotBuild, and Cyberconnect: Capture the Flag, respectively, during the second day of CISC Days 2026.
+                        The event featured academic, technical,and recreational competitions
+                        that showcased students' skills and teamwork.
+
+                    </p>
+                </article>
+
+
+                <article class="art3">
+                    <img src="images/cyber.jpg" alt="Cybersecurity Seminar" class="art-img">
+                    <h3>Beyond the Flag: Three Speakers Bring Cybersecurity Lessons to CISC Days 2026</h3>
+                    <p>
+                        
+                        Three guest speakers discussed cybersecurity, digital forensics, 
+                        and ethical hacking during the opening-day seminar of CISC Days 2026. 
+                        The seminar prepared students for the Capture the Flag Competition.
+                    
+                    </p>
+                
+                </article>
+            </section>
+
+
+        </main>
 
 
 
