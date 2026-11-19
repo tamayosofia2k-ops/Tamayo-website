@@ -8,7 +8,7 @@
     </head>
     <body>
         
-        <header id="header">
+        <header id="main-header">
             
             <div class="ticker">
                 <span class="ticker-label">LATEST STORIES</span>
@@ -22,51 +22,56 @@
                 </div>
             </div>
 
+
             <div class="header">
             <!--HEADER-->
-            <a href="/" class="logo-container">
-                <img src="images/Live.png" alt="The Cipher Lens" class="logo">
-                <div class="logo-text">
-                    <h1>THE CIPHER LENS</h1>
-                    <p>Bringing Truth Into Focus</p>
+                <div id="head-margin">
+                    <a href="/" class="logo-container">
+                        <img src="images/Live.png" alt="The Cipher Lens" class="logo">
+                        <div class="logo-text">
+                            <h1>THE CIPHER LENS</h1>
+                            <p>Bringing Truth Into Focus</p>
+                        </div>
+                    </a>
+                    
+
+                    <!--Navigation Section-->
+                    <nav id="nav">
+                        <a href="#home">Home</a>
+                        <a href="#news">News</a>
+                        <a href="#features">Features</a>
+                        <a href="#opinion">Opinion</a>
+                        <a href="#magazine">Magazine</a>
+                        <a href="#about-us">About Us</a>
+                        <a href="#contact-us">Contact Us</a>
+                    </nav>
+
+                    <!--Search Button-->
+                    <form role="search" action="/search" method="GET" class="search-form">
+                        <input
+                        disabled
+                        type="search"
+                        name="q"
+                        placeholder="Search articles,topics,keywords..."
+                        aria-label="Search Site content"
+                        
+                        />
+                        <button type="submit" disabled>Search</button>
+                    </form>
+
                 </div>
-            </a>
-            
-
-            <!--Navigation Section-->
-            <nav id="nav">
-                <a href="#home">Home</a>
-                <a href="#news">News</a>
-                <a href="#features">Features</a>
-                <a href="#opinion">Opinion</a>
-                <a href="#magazine">Magazine</a>
-                <a href="#about-us">About Us</a>
-                <a href="#contact-us">Contact Us</a>
-            </nav>
-
-            <!--Search Button-->
-            <form role="search" action="/search" method="GET" class="search-form">
-                <input
-                disabled
-                type="search"
-                name="q"
-                placeholder="Search articles,topics,keywords..."
-                aria-label="Search Site content"
-                
-                />
-                <button type="submit" disabled>Search</button>
-            </form>
-
             </div>
         </header>
 
-        <main>
+        <main class="main">
             <!--Hero Section-->
             <section class="hero">
 
+                <img src="images/Bg.png" alt="Background" class="bghero">
                 <h2>Stories That Inform. Perspectives That Matter.</h2>
                 <p>Bringing Truth Into Focus</p>
                 <a href="#latest-stories" class="btn">Explore Our Latest Stories</a>
+
 
             </section>
 
